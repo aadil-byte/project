@@ -1,0 +1,136 @@
+
+ body{
+     margin: 0;
+     border-bottom: 0;
+ }
+
+     img {
+         height: 100vh;
+         width: 100%;
+     }
+     .bg-image {
+         position: absolute;
+         top: 0%;
+         left: -15%;
+         height: 100vh;
+         width: 70%;
+         z-index: 1;
+         background-color: rgba(0, 0, 0, 0.164);
+         backdrop-filter: blur(5px);
+         transform: skew(15deg);
+     }
+     .box{
+         position: absolute;
+         top: 0%;
+         left: auto;
+         padding-top: 10%;
+         width: 50%;
+         text-align: center;
+         color: white;
+         z-index: 2;
+         opacity: 1;
+         transform: scale(1.1);
+     }
+      input{
+         color: white;
+         background-color: rgba(0, 0, 0, 0.308);
+         backdrop-filter: blur(5px);
+         border-width: 0;
+         height: 2.5rem;
+         width: 300px;
+         border-radius: 50px;
+         padding-left: 15px;
+         font-size: 1rem;
+         transition: 0.5s;
+     }
+     .pwd{
+         margin-top: 20px;
+     }
+    
+     h1{
+         font-family: Dancing Script, sans-serif;
+         font-size: 4rem;
+     }
+    
+     input[type=checkbox]{
+         margin: auto;
+         padding: auto;
+         height: auto;
+         width: auto;
+         margin-right: 5px;
+         box-shadow: none;
+     }
+     p{
+         font-size: 12px;
+         font-family: Kaisei Decol,sans-serif;
+         margin-top: 20px;
+         margin-bottom: 10px;
+         
+     }
+     a{
+         font-family: Kaisei Decol,sans-serif;
+         color: white;
+         margin-left: 100px;
+     }
+     button{
+         font-family: Kaisei Decol,sans-serif;
+         color: white;
+         background-color: rgba(0, 0, 0, 0);
+         backdrop-filter: blur(5px);
+         border-width: 3px;
+         border-color: white;
+         font-size: 1rem ;
+         margin-top: 20px;
+         padding: 6px 12px;
+         border-radius: 8px;
+     }
+     .reg{
+         margin-left: 20px;
+         background-color: white;
+         color: black;
+     }
+     @media (prefers-reduced-motion: no-preference) {
+       .box {
+         transition: opacity 1s ease, transform 1s ease;
+       }
+     }
+     input:active{
+         color: white;
+         font-size: 1rem;
+         font-family: Kaisei Decol,sans-serif;
+         
+     }
+     input:focus{
+         outline:none;
+         color: white;
+         font-size: 1rem;
+         font-family: Kaisei Decol,sans-serif;
+         transition: 0.5s;
+         box-shadow: 0 0px 2px 2px white;
+     }
+     input::placeholder{
+         color: white;
+         font-size: 1rem;
+         font-family: Kaisei Decol,sans-serif;
+     }
+     button:hover{
+         font-family: Kaisei Decol,sans-serif;
+         color: white;
+         background-color: rgba(0, 0, 0, 0.37);
+         backdrop-filter: blur(5px);
+         border-width: 3px;
+         border-color: white;
+         font-size: 1rem ;
+         margin-top: 20px;
+         padding: 6px 12px;
+         border-radius: 5px;
+     }
+     button:active{
+         box-shadow: 0 0px 1px 1px white;
+         transition: 0.1s;
+     }
+     .reg:hover{
+         margin-left: 20px;
+         background-color: #CDF0EA;
+         color: black;
+     } 
